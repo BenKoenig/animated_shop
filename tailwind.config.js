@@ -19,7 +19,17 @@ module.exports =
   // to enable the settings or customizations you need.
   // 
   theme: {
-    extend: {}
+    extend: {
+      textColor: {
+
+        'primary': '#5D737E',
+ 
+        'secondary': '#ffed4a',
+ 
+        'danger': '#e3342f',
+ 
+      }
+    }
   },
 
   variants: {},
