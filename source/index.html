@@ -57,8 +57,9 @@
 
   </header>
   <main>
-    <div class="px-2 md:px-10 w-full">
-      <h2 class="text-7xl font-bold my-10">Trending</h2>
+    <!--Trending Category-->
+    <div class="px-2 md:px-10 w-full mt-24">
+      <h2 class="text-7xl font-bold mb-7">Trending</h2>
       <div class="grid  grid-flow-col grid-rows-4 sm:grid-rows-2 xl:grid-rows-1  gap-6 xl:gap-10">
       <!--New Card-->
         <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
@@ -75,7 +76,6 @@
               </div>
             </div>
           </div>
-          
           <div class="flex items-center justify-between bg-gray px-2 py-3">
             <a href="#">
               <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
@@ -83,7 +83,6 @@
             <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
           </div>
         </div>
-
         <!--New Card-->
         <div class="overflow-hidden rounded-lg  w-full shadow-md col-span-1" >
           <div class="relative w-full overflow-hidden">
@@ -107,7 +106,6 @@
             <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
           </div>
         </div>
-
         <!--New Card-->
         <div class="overflow-hidden rounded-lg  w-full shadow-md col-span-1">
           <div class="relative w-full overflow-hidden">
@@ -131,7 +129,6 @@
             <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
           </div>
         </div>
-
         <!--New Card-->
         <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
           <div class="relative w-full overflow-hidden">
@@ -154,12 +151,256 @@
             </a>
             <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
           </div>
-        </div>
-
-
-        
+        </div>        
       </div>
     </div>
+
+
+
+    <!--Recent Category-->
+    <div class="px-2 md:px-10 w-full mt-24">
+      <h2 class="text-7xl font-bold mb-7">Recent</h2>
+      <div class="grid  grid-flow-row md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5  gap-6 xl:gap-10">
+      <!--New Card-->
+        <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_1.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Singularity</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg  w-full shadow-md col-span-1" >
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_2.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Glitch Lab</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg  w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_3.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Shade</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_4.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Tyagal</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>      
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_5.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Tyagal</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>  
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_6.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Tyagal</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>  
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_7.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Tyagal</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>  
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_8.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Tyagal</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>  
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_9.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Tyagal</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>  
+        <!--New Card-->
+        <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
+          <div class="relative w-full overflow-hidden">
+            <img src="assets/recent_10.png" alt="" class="w-full cBorder">
+            <div class="flex justify-between items-center backdrop-filter backdrop-blur-md bg-white bg-opacity-70 overflow-hidden p-2 absolute bottom-0 w-full z-30">
+              <div class="leading-none">
+                <h3 class="font-bold text-3xl">Tyagal</h3>
+                <p>Lorem Ipsum Dolar</p>
+              </div>
+              <div class="flex items-center gap-x-1">
+                <p>3.34</p>
+                <svg preserveAspectRatio="xMidYMid" width=20 viewBox="-38.39985 -104.22675 332.7987 625.3605"><path fill="#343434"  d="M125.166 285.168l2.795 2.79 127.962-75.638L127.961 0l-2.795 9.5z"/><path fill="#8C8C8C" d="M127.962 287.959V0L0 212.32z"/><path fill="#3C3C3B" d="M126.386 412.306l1.575 4.6L256 236.587l-128.038 75.6-1.575 1.92z"/><path fill="#8C8C8C" d="M0 236.585l127.962 180.32v-104.72z"/><path fill="#141414" d="M127.961 154.159v133.799l127.96-75.637z"/><path fill="#393939" d="M127.96 154.159L0 212.32l127.96 75.637z"/></svg>
+              </div>
+            </div>
+          </div>
+          
+          <div class="flex items-center justify-between bg-gray px-2 py-3">
+            <a href="#">
+              <svg width=30 viewBox="0 0 48 48"><path d="M0 0h48v48H0z" fill="none"/><path d="M8.444 27L24 42l15.556-15c2.7-2.033 4.444-5.256 4.444-8.889C44 11.978 39.022 7 32.889 7 29.256 7 26.022 8.756 24 11.456 21.978 8.756 18.744 7 15.111 7 8.978 7 4 11.978 4 18.111 4 21.744 5.744 24.967 8.444 27zm6.667-16c2.256 0 4.329 1.04 5.687 2.853L24 18.128l3.202-4.275C28.56 12.04 30.633 11 32.889 11 36.81 11 40 14.19 40 18.111c0 2.254-1.039 4.329-2.851 5.694l-.195.147-.176.169L24 36.443 11.221 24.121l-.176-.169-.195-.147C9.039 22.44 8 20.365 8 18.111 8 14.19 11.19 11 15.111 11z"/></svg>
+            </a>
+            <a href="#" class="bg-white hover:bg-primary hover:text-white px-4 py-3 rounded-lg">Add to Shopping Cart</a>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+
+    
+
+
+    
+
+        
+
   </main>
 </body>
 
