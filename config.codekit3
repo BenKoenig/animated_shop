@@ -103,6 +103,58 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/source\/assets\/trending_1.png" : {
+      "ft" : 32768,
+      "iS" : 179849,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/trending_1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/assets\/trending_2.png" : {
+      "ft" : 32768,
+      "iS" : 259494,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/trending_2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/assets\/trending_3.png" : {
+      "ft" : 32768,
+      "iS" : 130079,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/trending_3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/assets\/trending_4.png" : {
+      "ft" : 32768,
+      "iS" : 243882,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/trending_4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/source\/css\/main.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -115,40 +167,6 @@
       "oF" : 1,
       "pg" : 2
     },
-    "\/source\/favicon-16x16.png" : {
-      "ft" : 32768,
-      "iS" : 1029,
-      "oA" : 0,
-      "oAP" : "\/build\/favicon-16x16.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/source\/favicon-32x32.png" : {
-      "ft" : 32768,
-      "iS" : 1295,
-      "oA" : 0,
-      "oAP" : "\/build\/favicon-32x32.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/source\/favicon.ico" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/favicon.ico",
-      "oF" : 0
-    },
     "\/source\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -157,18 +175,16 @@
       "oAP" : "\/build\/index.html",
       "oF" : 0
     },
-    "\/source\/logo.jpg" : {
-      "ft" : 16384,
-      "iS" : 18893,
-      "jF" : 0,
+    "\/source\/js\/app.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 3,
+      "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/logo.jpg",
+      "oAP" : "\/build\/js\/app.js",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
+      "sC" : 3,
+      "tS" : 1
     },
     "\/tailwind.config.js" : {
       "bF" : 0,
@@ -192,8 +208,8 @@
     "creationDate" : 649153947.61222005,
     "displayValue" : "nftshop",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "\/source\/logo.jpg",
-    "iconImageWasSetByUser" : 1,
+    "iconImageName" : "brackets_magenta",
+    "iconImageWasSetByUser" : 0,
     "lastBuiltDate" : 649153960.37437904
   },
   "projectSettings" : {

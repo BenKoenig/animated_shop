@@ -20,11 +20,11 @@ module.exports =
   // 
   theme: {
     extend: {
-      textColor: {
-
+      colors: {
         'primary': '#5D737E',
  
-        'secondary': '#ffed4a',
+        'secondary': '#30292F',
+        'gray': '#E0E0E0',
  
         'danger': '#e3342f',
  
