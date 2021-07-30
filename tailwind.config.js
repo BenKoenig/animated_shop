@@ -25,10 +25,18 @@ module.exports =
  
         'secondary': '#30292F',
         'gray': '#E0E0E0',
+        'darkgray': '#30292F',
  
         'danger': '#e3342f',
  
-      }
+      },
+      backgroundImage: theme => ({
+
+        'banner-1': "url('/build/assets/banner/banner_1.jpg')",
+
+        'banner-2': "url('/build/assets/banner/banner_2.jpg')",
+        'banner-3': "url('/build/assets/banner/banner_3.jpg')",
+       })
     }
   },
 

@@ -136,6 +136,45 @@
       "rFN" : 0,
       "uCM" : 0
     },
+    "\/source\/assets\/banner\/banner_1.jpg" : {
+      "ft" : 16384,
+      "iS" : 1632980,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/banner\/banner_1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/assets\/banner\/banner_2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1066284,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/banner\/banner_2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/source\/assets\/banner\/banner_3.jpg" : {
+      "ft" : 16384,
+      "iS" : 1549763,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/banner\/banner_3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/source\/assets\/recent_1.png" : {
       "ft" : 32768,
       "iS" : 87112,
