@@ -7,14 +7,14 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="css/main.css">
   <script src="js/app.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
   <title>Welcome to Tailwind!</title>
 </head>
 <body>
   <header>
     <nav class="flex justify-between items-center md:flex-row flex-col  gap-y-4 md:px-10 py-5">
     <div class="w-44 justify-center md:justify-left flex">
-      <a href="#" class="text-3xl font-bold">NFT World</a>
+      <a href="#" class="text-3xl font-extrabold">NFT World</a>
     </div>
 
       <ul class="">
@@ -59,7 +59,7 @@
   <main>
     <!--Trending Category-->
     <div class="px-2 md:px-10 w-full mt-24">
-      <h2 class="text-7xl font-bold mb-7">Trending</h2>
+      <h2 class="text-5xl md:text-7xl font-extrabold mb-7">Trending</h2>
       <div class="grid  grid-flow-col grid-rows-4 sm:grid-rows-2 xl:grid-rows-1  gap-6 xl:gap-10">
       <!--New Card-->
         <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
@@ -159,7 +159,7 @@
 
     <!--Recent Category-->
     <div class="px-2 md:px-10 w-full mt-24">
-      <h2 class="text-7xl font-bold mb-7">Recent</h2>
+      <h2 class="text-5xl md:text-7xl  font-extrabold mb-7">Recent</h2>
       <div class="grid  grid-flow-row md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5  gap-6 xl:gap-10">
       <!--New Card-->
         <div class="overflow-hidden rounded-lg w-full shadow-md col-span-1">
@@ -392,31 +392,37 @@
         </div>  
       </div>
     </div>
-
-
-    
-
-
-    
-
-        
-
   </main>
+  <footer>
+    <div class="grid grid-flow-col py-24 px-2 md:px-10">
+      <div>
+        <h3 class="text-2xl font-bold mb-5">Lorem Ipsum</h3>
+        <ul>
+          <li><a href="#" class="text-primary ">Link 1</a></li>
+          <li><a href="#" class="text-primary ">Link 2</a></li>
+          <li><a href="#" class="text-primary ">Link 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-bold mb-5">Lorem Ipsum</h3>
+        <ul>
+          <li><a href="#" class="text-primary ">Link 1</a></li>
+          <li><a href="#" class="text-primary ">Link 2</a></li>
+          <li><a href="#" class="text-primary ">Link 3</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-2xl font-bold mb-5">Lorem Ipsum</h3>
+        <ul>
+          <li><a href="#" class="text-primary ">Link 1</a></li>
+          <li><a href="#" class="text-primary ">Link 2</a></li>
+          <li><a href="#" class="text-primary ">Link 3</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
 </body>
 
-<script>
-
-  const tl = gsap.timeline({repeat:-1});
-    tl.from('#text_1', {x:'-100%'});
-    tl.to('#text_1', {x:'100%', delay:1})
-    tl.from('#text_2', {x:'-100%'}, ">");
-    tl.to('#text_2', {x:'100%', delay:1})
-    tl.from('#text_3', {x:'-100%'});
-    tl.to('#text_3', {x:'100%', delay:1})
-  
-
-
-</script>
 </html>
 
 
