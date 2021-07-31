@@ -136,41 +136,41 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/source\/assets\/banner\/banner_1.jpg" : {
-      "ft" : 16384,
-      "iS" : 1632980,
-      "jF" : 0,
+    "\/source\/assets\/banner\/icon_1.png" : {
+      "ft" : 32768,
+      "iS" : 912780,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/banner\/banner_1.jpg",
+      "oAP" : "\/build\/assets\/banner\/icon_1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/banner\/banner_2.jpg" : {
-      "ft" : 16384,
-      "iS" : 1066284,
-      "jF" : 0,
+    "\/source\/assets\/banner\/icon_2.png" : {
+      "ft" : 32768,
+      "iS" : 791626,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/banner\/banner_2.jpg",
+      "oAP" : "\/build\/assets\/banner\/icon_2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/banner\/banner_3.jpg" : {
-      "ft" : 16384,
-      "iS" : 1549763,
-      "jF" : 0,
+    "\/source\/assets\/banner\/icon_3.png" : {
+      "ft" : 32768,
+      "iS" : 886149,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/banner\/banner_3.jpg",
+      "oAP" : "\/build\/assets\/banner\/icon_3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

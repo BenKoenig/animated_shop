@@ -6,9 +6,8 @@ const appears = document.querySelectorAll("#appear");
 const imgs = document.querySelectorAll('#j-img')
 
 //******* Banner *******
-const tl = gsap.timeline({repeat:-1});
+const tl = gsap.timeline({repeat:2});
 tl.add('text');
-
 tl.from('#text_1', {y:'100%', ease: "power4.out", duration:.5});
 tl.to('#text_1', {y:'-100%', ease: "power4.out",  delay:1, duration:.5})
 tl.from('#text_2', {y:'100%', ease: "power4.out", duration:.5}, "<");
@@ -17,7 +16,17 @@ tl.from('#text_3, #frame', {y:'100%', ease: "power4.out", duration:.5}, "<");
 tl.from('#frame', {autoAlpha: 0, duration:0}, "<")
 tl.to('#frame, #text_3', {scale:1.5, rotate:-24, duration:2, ease: "poser1.out"}, "<")
 tl.to('#frame, #text_3', {autoAlpha:0, duration:0})
-tl.from('#banner-1', {autoAlpha:0})
+
+
+tl.add('world')
+tl.from('#world', {autoAlpha:0, scale:0.7, rotate:360});
+tl.to('#world', {scale:10});
+tl.from('#j-icon', {scale:0}, "<");
+tl.from('#text_4', {autoAlpha:0})
+tl.to('#j-icon, #world', {scale:0})
+tl.to('#text_4', {delay:3})
+
+
 
 
 
