@@ -36,6 +36,9 @@ module.exports =
       flex: {
         '05': '0.4 0.4 0%',
       },
+      borderRadius: {
+        '4xl': '4.5rem',
+      },
       backgroundImage: theme => ({
 
         'banner-1': "url('/build/assets/banner/banner_1.jpg')",
