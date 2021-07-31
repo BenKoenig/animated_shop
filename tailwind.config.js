@@ -30,6 +30,12 @@ module.exports =
         'danger': '#e3342f',
  
       },
+      spacing: {
+        '100': '40rem',
+      },
+      flex: {
+        '05': '0.4 0.4 0%',
+      },
       backgroundImage: theme => ({
 
         'banner-1': "url('/build/assets/banner/banner_1.jpg')",

@@ -1,13 +1,12 @@
 import gsap from "gsap";
 
-
+//query selectors
 const cartBtn = document.querySelectorAll('.j-cartBtn');
 const appears = document.querySelectorAll("#appear");
 const imgs = document.querySelectorAll('#j-img')
 
 //******* Banner *******
 const tl = gsap.timeline({repeat:-1});
-
 tl.add('text');
 
 tl.from('#text_1', {y:'100%', ease: "power4.out", duration:.5});
@@ -56,7 +55,7 @@ for(let i = 0; i < cartBtn.length; i++) {
         } else {
             added[i] = false;
             //Color changes back to original color => text changes back to "Add to cart"
-            tlBtn[i].to(t.parentNode, {backgroundColor:"#5D737E", duration:0})
+            tlBtn[i].to(t.parentNode, {backgroundColor:"black", duration:0})
             tlBtn[i].to(t, {x:"100%", duration:.2});
             tlBtn[i].set(t, {text:"Add to cart"});
             tlBtn[i].to(t, {x:"-100%",duration:0});
@@ -68,6 +67,7 @@ for(let i = 0; i < cartBtn.length; i++) {
 // ******* Load animations *******
 gsap.from("#j-trendingTitle", {x:"-100%"});
 
+//checks where the user is
 const appears_cb = function(elm, cb){
     const onscroll = () => {
         if(elm.getBoundingClientRect().y - window.innerHeight < 0) {
@@ -78,13 +78,16 @@ const appears_cb = function(elm, cb){
     document.addEventListener("scroll", onscroll);
 };
 
-
+//Items appear from left when user scrolls
 for(const d of appears) {
     appears_cb(d, ()=> {
         gsap.from(d, {x:"-100%"});
     });
 }
 
+
+
+//Image scales when user hovers mouse
 for(const img of imgs) {
     const tl = gsap.timeline({});
     img.addEventListener('mouseenter', e => {
