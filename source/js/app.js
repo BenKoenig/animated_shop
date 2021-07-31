@@ -1,5 +1,11 @@
 import gsap from "gsap";
 
+
+const cartBtn = document.querySelectorAll('.j-cartBtn');
+const appears = document.querySelectorAll("#appear");
+const imgs = document.querySelectorAll('#j-img')
+
+//******* Banner *******
 const tl = gsap.timeline({repeat:-1});
 
 tl.add('text');
@@ -15,8 +21,8 @@ tl.to('#frame, #text_3', {autoAlpha:0, duration:0})
 tl.from('#banner-1', {autoAlpha:0})
 
 
-const cartBtn = document.querySelectorAll('.j-cartBtn');
 
+// ******* Add to cart button *******
 //array to check if items are already added to the cart 
 let added = [];
 //array for every shopping cart button
@@ -58,3 +64,37 @@ for(let i = 0; i < cartBtn.length; i++) {
         }
     })
 }
+
+// ******* Load animations *******
+gsap.from("#j-trendingTitle", {x:"-100%"});
+
+const appears_cb = function(elm, cb){
+    const onscroll = () => {
+        if(elm.getBoundingClientRect().y - window.innerHeight < 0) {
+            document.removeEventListener("scroll", onscroll);
+            cb();
+        }
+    };
+    document.addEventListener("scroll", onscroll);
+};
+
+
+for(const d of appears) {
+    appears_cb(d, ()=> {
+        gsap.from(d, {x:"-100%"});
+    });
+}
+
+for(const img of imgs) {
+    const tl = gsap.timeline({});
+    img.addEventListener('mouseenter', e => {
+        const t = e.target;
+        tl.restart();
+        tl.to(t, {scale:1.5, duration:.4})
+    })
+    img.addEventListener('mouseleave', () => {
+        tl.reverse();
+    })
+}
+
+
