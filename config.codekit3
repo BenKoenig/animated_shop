@@ -188,24 +188,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/forms\/Platonic.png" : {
-      "ft" : 32768,
-      "iS" : 544008,
-      "oA" : 0,
-      "oAP" : "\/build\/assets\/forms\/Platonic.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/source\/assets\/recent_1.png" : {
+    "\/source\/assets\/recentSection\/recent_1.png" : {
       "ft" : 32768,
       "iS" : 87112,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_1.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -214,11 +201,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_2.png" : {
+    "\/source\/assets\/recentSection\/recent_2.png" : {
       "ft" : 32768,
       "iS" : 84587,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_2.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -227,11 +214,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_3.png" : {
+    "\/source\/assets\/recentSection\/recent_3.png" : {
       "ft" : 32768,
       "iS" : 132865,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_3.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -240,11 +227,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_4.png" : {
+    "\/source\/assets\/recentSection\/recent_4.png" : {
       "ft" : 32768,
       "iS" : 53547,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_4.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -253,11 +240,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_5.png" : {
+    "\/source\/assets\/recentSection\/recent_5.png" : {
       "ft" : 32768,
       "iS" : 129132,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_5.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -266,11 +253,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_6.png" : {
+    "\/source\/assets\/recentSection\/recent_6.png" : {
       "ft" : 32768,
       "iS" : 78815,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_6.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_6.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -279,11 +266,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_7.png" : {
+    "\/source\/assets\/recentSection\/recent_7.png" : {
       "ft" : 32768,
       "iS" : 117162,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_7.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_7.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -292,11 +279,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_8.png" : {
+    "\/source\/assets\/recentSection\/recent_8.png" : {
       "ft" : 32768,
       "iS" : 121822,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_8.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_8.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -305,11 +292,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_9.png" : {
+    "\/source\/assets\/recentSection\/recent_9.png" : {
       "ft" : 32768,
       "iS" : 105275,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_9.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_9.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -318,11 +305,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/recent_10.png" : {
+    "\/source\/assets\/recentSection\/recent_10.png" : {
       "ft" : 32768,
       "iS" : 70494,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/recent_10.png",
+      "oAP" : "\/build\/assets\/recentSection\/recent_10.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -331,11 +318,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/trending_1.png" : {
+    "\/source\/assets\/trendingSection\/trending_1.png" : {
       "ft" : 32768,
       "iS" : 179849,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/trending_1.png",
+      "oAP" : "\/build\/assets\/trendingSection\/trending_1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -344,11 +331,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/trending_2.png" : {
+    "\/source\/assets\/trendingSection\/trending_2.png" : {
       "ft" : 32768,
       "iS" : 259494,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/trending_2.png",
+      "oAP" : "\/build\/assets\/trendingSection\/trending_2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -357,11 +344,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/trending_3.png" : {
+    "\/source\/assets\/trendingSection\/trending_3.png" : {
       "ft" : 32768,
       "iS" : 130079,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/trending_3.png",
+      "oAP" : "\/build\/assets\/trendingSection\/trending_3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -370,11 +357,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/source\/assets\/trending_4.png" : {
+    "\/source\/assets\/trendingSection\/trending_4.png" : {
       "ft" : 32768,
       "iS" : 243882,
       "oA" : 0,
-      "oAP" : "\/build\/assets\/trending_4.png",
+      "oAP" : "\/build\/assets\/trendingSection\/trending_4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
