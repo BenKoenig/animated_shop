@@ -188,6 +188,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/source\/assets\/forms\/Platonic.png" : {
+      "ft" : 32768,
+      "iS" : 544008,
+      "oA" : 0,
+      "oAP" : "\/build\/assets\/forms\/Platonic.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/source\/assets\/recent_1.png" : {
       "ft" : 32768,
       "iS" : 87112,

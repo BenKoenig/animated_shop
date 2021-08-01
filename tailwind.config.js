@@ -24,7 +24,6 @@ module.exports =
         'primary': '#5D737E',
  
         'secondary': '#30292F',
-        'gray': '#E0E0E0',
         'darkgray': '#30292F',
  
         'danger': '#e3342f',
