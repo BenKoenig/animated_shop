@@ -10,5 +10,5 @@ Content of this website:
 - Scroll & Button Animations
 - Item & Favorite Count Tracker
 
-This website has been designed with Adobe XD and Adobe Photoshop.
+This website was designed with Adobe XD and Adobe Photoshop.
 The web design can be viewed here: https://www.behance.net/gallery/124589221/NFT-Shop-Design-Concept-NFT-World
