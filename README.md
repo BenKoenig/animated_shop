@@ -1,5 +1,5 @@
 # nftshop
-### NFT Shop made with TailwindCSS and Gsap (frontend), submitted as a project at my university.
+### NFT Shop made with TailwindCSS and GSAP, submitted as a project at my university.
 
 ## Content
 - Animated Banner
