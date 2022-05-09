@@ -14,4 +14,4 @@
 - GSAP :honeybee:
 
 This website was designed with Adobe XD and Adobe Photoshop.
-The web design can be viewed here](https://www.behance.net/gallery/124589221/NFT-Shop-Design-Concept-NFT-World).
+The web design can be viewed [here](https://www.behance.net/gallery/124589221/NFT-Shop-Design-Concept-NFT-World).
