@@ -1,8 +1,7 @@
 # nftshop
+### NFT Shop made with TailwindCSS and Gsap (frontend), submitted as a project at my university.
 
-NFT Shop made with TailwindCSS and Gsap (frontend), submitted as a project at my university.
-
-Content of this website:
+## Content
 - Animated Banner
 - Trending Item Section
 - Buy & Sell Information Section
@@ -10,5 +9,9 @@ Content of this website:
 - Scroll & Button Animations
 - Item & Favorite Count Tracker
 
+## Technologies used
+- TailwindCSS :wind_chime:
+- GSAP :honeybee:
+
 This website was designed with Adobe XD and Adobe Photoshop.
-The web design can be viewed here: https://www.behance.net/gallery/124589221/NFT-Shop-Design-Concept-NFT-World
+The web design can be viewed here](https://www.behance.net/gallery/124589221/NFT-Shop-Design-Concept-NFT-World).
