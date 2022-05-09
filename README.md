@@ -13,6 +13,6 @@
 - TailwindCSS :wind_chime:
 - GSAP :honeybee:
 
-This website was designed with Adobe XD and Adobe Photoshop.
+## Links
 - [Web design](https://www.behance.net/gallery/124589221/NFT-Shop-Design-Concept-NFT-World)
 - [Live Demo](https://thunderous-souffle-a15.netlify.app/)
